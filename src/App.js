@@ -102,7 +102,7 @@ function Skill({ skill, level, color }) {
     <div className="skill" style={{ backgroundColor: color }}>
       <span>{skill}</span>
 
-      {/* <span>   ......one way using && operator
+      {/* <span>   .......one way using && operator
       {level === "beginner" && "👶"}
         {level === "intermediate" && "👍"}
         {level === "advanced" && "💪"}
